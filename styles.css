@@ -1,0 +1,248 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+        * {
+          font-family: 'Poppins', sans-serif;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+
+
+        body {
+          height: fit-content;
+          min-height: 100vh;
+          background: url(./assets/free-photo-background-summer-travel-beach-waves-surfing-blue-evening-sky-with-mountains\ \(1\).jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+
+        .header {
+          position: fixed;
+          top: 0;
+          height: 10vh;
+          left: 0;
+          width: 100%;
+          padding: 20px 100px;
+          background: rgba(255, 255, 255 , .1);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          backdrop-filter: blur(10px);
+          border-bottom: 2px solid rgba(255, 255, 255 , .2);
+          z-index: 100;
+        }
+
+        .header:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -100%;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(90deg, transparent, rgba(255, 255 ,255 , .5), transparent );
+          transition: .5s;
+        }
+
+        .header:hover:before {
+          left: 100%;
+        }
+
+
+        .logo {
+          color: #fff;
+          font-size: 25px;
+          text-decoration: none;
+          font-weight: 600;
+          cursor: end;
+        }
+
+        .navbar a {
+          color: #fff;
+          font-size: 18px;
+          text-decoration: none;
+          margin-left: 35px;
+          transition: .3s;
+        }
+
+        .navbar a:hover {
+          color: #f00;
+        }
+
+        #menu-icon {
+          font-size: 36px;
+          color: #fff;
+          display: none;
+        }
+
+        .main-section {
+          width: 100%;
+          height: 90vh;
+          position: absolute;
+          top: 10vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+
+        .inner-section {
+          position: relative;
+          width: 100%;
+          height: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        #intro-heading {
+          font-size: 2.3rem;
+          text-align: center;
+          padding: 0;
+        }
+        #intro-description {
+          position: relative;
+          margin-top: -10px;
+        }
+
+        .about-card.active , .socials-card.active {
+          position: absolute;
+          top: 0;
+          margin: 0 auto;
+          width: 80%;
+          height: fit-content;
+          background-color: rgba(0, 0, 0, 0.373);
+          color: white;
+          text-align: center;
+          backdrop-filter: blur(20px);
+          display: flex;
+          justify-content: center;
+          padding: 20px;
+          gap: 20px;
+          border-radius: 20px;
+        }
+
+        #close-cards {
+          font-size: 30px;
+          cursor: pointer;
+          transition: .3s;
+          height: 30px;
+        }
+
+        #close-cards:hover {
+          color: #f00;
+          font-size: 35px;
+
+        }
+
+        .left-section, .right-section {
+          width: 50%;
+          border: 3px solid black;
+          padding: 0 10px;
+          background-color: rgba(70, 70, 209, 0.111);
+          backdrop-filter: blur(10px);
+          border-radius: 20px;
+        }
+
+        .left-section p, .right-section p {
+          margin-top: 20px;
+          font-size: 1rem;
+
+        }
+        .about-card .left-section, .about-card .right-section {
+          background-color: rgba(0, 0, 0, 0.373);
+        }
+        .about-card .left-section {
+          padding-bottom: 40px;
+        }
+        /* contact card */
+
+        .contact-card.active {
+          position: absolute;
+          top: 0;
+          margin: 0 auto;
+          color: white;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          padding: 20px;
+          border-radius: 20px;
+
+        }
+        .contact-card .left-section {
+          position: relative;
+          background-color: rgba(0, 0, 0, 0.373);
+          
+        }
+
+        .contact-card .left-section #close-cards {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 5px;
+          font-size: 40px;
+
+        }
+
+        .contact-logos {
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 40px;
+        }
+
+        #discord-logo, #email-logo {
+          width: 50px;
+          transition: .5s;
+          
+        }
+
+        #discord-logo:hover, #email-logo:hover {
+          transform: scale(1.1);
+        }
+
+        /* socials card */
+        .socials-card {
+          
+        }
+        .socials-card .right-section {
+          position: relative;
+          background-color: rgba(255, 255 ,255 , .5);
+          height: auto;
+        }
+        .socials-card .left-section p {
+          font-size: 1rem;
+        }
+
+        .socials-card .right-section h1 {
+          color: black;
+        }
+        .social-card-logos {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; /* Center logos horizontally */
+          gap: 10px;
+        }
+        #github-logo, #youtube-logo {
+
+          width: 100px;
+          transition: .5s; 
+        }
+
+        #github-logo:hover, #youtube-logo:hover {
+          transform: scale(1.1);
+        } 
+
+
+        .about-card, .contact-card, .socials-card {
+          display: none;
+        }
+
