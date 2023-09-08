@@ -6,7 +6,7 @@ This endeavor has been instrumental in honing my problem-solving skills, refinin
 
 ## Demo Video
 
-To get a sneak peek of my portfolio in action, check out this short demo video:
+To get a sneak peek of my portfolio in action, check out this short demo video by clicking on the this image below:
 
 [![Portfolio Demo](https://cdn.discordapp.com/attachments/1107675935882358875/1149549529801175130/personal_portofolio.png)](https://www.youtube.com/watch?v=TsW9NgqxPp8&ab_channel=willCodes)
 
