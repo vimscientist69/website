@@ -8,7 +8,7 @@ This endeavor has been instrumental in honing my problem-solving skills, refinin
 
 To get a sneak peek of my portfolio in action, check out this short demo video:
 
-[![Portfolio Demo](https://your-video-thumbnail-url-here.com)](https://link-to-your-demo-video-here.com)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TsW9NgqxPp8?si=Dvd6HewalMHsxvsh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Overcoming Challenges
 
