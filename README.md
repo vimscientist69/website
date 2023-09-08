@@ -8,7 +8,7 @@ This endeavor has been instrumental in honing my problem-solving skills, refinin
 
 To get a sneak peek of my portfolio in action, check out this short demo video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TsW9NgqxPp8?si=Dvd6HewalMHsxvsh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Portfolio Demo](https://cdn.discordapp.com/attachments/1107675935882358875/1149549529801175130/personal_portofolio.png)](https://www.youtube.com/watch?v=TsW9NgqxPp8&ab_channel=willCodes)
 
 ## Overcoming Challenges
 
