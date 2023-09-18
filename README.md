@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This is a simple yet elegant website that I've
 
 This endeavor has been instrumental in honing my problem-solving skills, refining my design sensibilities, and gaining proficiency in creating interactive popups using the Document Object Model (DOM) and JavaScript toggle functions. 
 
-You can [click here](https://william-ferns-portofolio.vercel.app/) to check out the website!
+You can [click here](https://williamferns.com) to check out the website!
 
 ## Demo Video
 
