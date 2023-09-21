@@ -107,6 +107,16 @@
           margin-top: -10px;
         }
 
+        .toolbox-ai {
+          cursor: pointer;
+          color: red;
+          transition: .5s;
+        }
+
+        .toolbox-ai:hover {
+          font-size: 1.1rem;
+        }
+
         .about-card.active , .socials-card.active {
           position: absolute;
           top: 0;
